@@ -26,6 +26,8 @@ function App () {
       setCounter(counter + 1)
   }
 
+/*njofgwojwrfgonjwerfnjiowerfnujiofwe*/
+
   function countDown () {
       setCounter(counter - 1)
   }
@@ -45,7 +47,7 @@ function App () {
     
     {step === 0 && <Passo0 />}
     {step === 1 && <Passo1 />}
-
+  
    <AnotherComponent currentCount={counter} countDown={countDown} countUp={countUp}/>
 
 

@@ -4,7 +4,7 @@ export default function Meubotao() {
   );
 }
 
-export default function Myapp() {
+export const Myapp = () => {
   return (
       <div>
       <h1>Bem vindo ao Meu Aplicativo</h1>
@@ -12,6 +12,7 @@ export default function Myapp() {
       </div>
   );
 }
+
 function AboutPage() {
   return (
       <>
